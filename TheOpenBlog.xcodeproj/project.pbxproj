@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79B9AAF61D22365500CDD611 /* iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B9AAF61D22365500CDD611 /* TheOpenBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheOpenBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B9AAF91D22365500CDD611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79B9AAFB1D22365500CDD611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79B9AAFE1D22365500CDD611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79B9AB001D22365500CDD611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79B9AB031D22365500CDD611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79B9AB051D22365500CDD611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79B9AB0A1D22365500CDD611 /* iOS-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B9AB0A1D22365500CDD611 /* TheOpenBlog.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheOpenBlog.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B9AB0E1D22365500CDD611 /* iOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AppTests.swift; sourceTree = "<group>"; };
 		79B9AB101D22365500CDD611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79B9AB151D22365500CDD611 /* iOS-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B9AB151D22365500CDD611 /* TheOpenBlog.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheOpenBlog.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B9AB191D22365500CDD611 /* iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AppUITests.swift; sourceTree = "<group>"; };
 		79B9AB1B1D22365600CDD611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		79B9AAF71D22365500CDD611 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79B9AAF61D22365500CDD611 /* iOS-App.app */,
-				79B9AB0A1D22365500CDD611 /* iOS-AppTests.xctest */,
-				79B9AB151D22365500CDD611 /* iOS-AppUITests.xctest */,
+				79B9AAF61D22365500CDD611 /* TheOpenBlog.app */,
+				79B9AB0A1D22365500CDD611 /* TheOpenBlog.xctest */,
+				79B9AB151D22365500CDD611 /* TheOpenBlog.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79B9AAF51D22365500CDD611 /* iOS-App */ = {
+		79B9AAF51D22365500CDD611 /* TheOpenBlog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79B9AB1E1D22365600CDD611 /* Build configuration list for PBXNativeTarget "iOS-App" */;
+			buildConfigurationList = 79B9AB1E1D22365600CDD611 /* Build configuration list for PBXNativeTarget "TheOpenBlog" */;
 			buildPhases = (
 				79B9AAF21D22365500CDD611 /* Sources */,
 				79B9AAF31D22365500CDD611 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "iOS-App";
+			name = TheOpenBlog;
 			productName = "iOS-App";
-			productReference = 79B9AAF61D22365500CDD611 /* iOS-App.app */;
+			productReference = 79B9AAF61D22365500CDD611 /* TheOpenBlog.app */;
 			productType = "com.apple.product-type.application";
 		};
-		79B9AB091D22365500CDD611 /* iOS-AppTests */ = {
+		79B9AB091D22365500CDD611 /* TheOpenBlogTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79B9AB211D22365600CDD611 /* Build configuration list for PBXNativeTarget "iOS-AppTests" */;
+			buildConfigurationList = 79B9AB211D22365600CDD611 /* Build configuration list for PBXNativeTarget "TheOpenBlogTests" */;
 			buildPhases = (
 				79B9AB061D22365500CDD611 /* Sources */,
 				79B9AB071D22365500CDD611 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				79B9AB0C1D22365500CDD611 /* PBXTargetDependency */,
 			);
-			name = "iOS-AppTests";
+			name = TheOpenBlogTests;
 			productName = "iOS-AppTests";
-			productReference = 79B9AB0A1D22365500CDD611 /* iOS-AppTests.xctest */;
+			productReference = 79B9AB0A1D22365500CDD611 /* TheOpenBlog.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		79B9AB141D22365500CDD611 /* iOS-AppUITests */ = {
+		79B9AB141D22365500CDD611 /* TheOpenBlogUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79B9AB241D22365600CDD611 /* Build configuration list for PBXNativeTarget "iOS-AppUITests" */;
+			buildConfigurationList = 79B9AB241D22365600CDD611 /* Build configuration list for PBXNativeTarget "TheOpenBlogUITests" */;
 			buildPhases = (
 				79B9AB111D22365500CDD611 /* Sources */,
 				79B9AB121D22365500CDD611 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				79B9AB171D22365500CDD611 /* PBXTargetDependency */,
 			);
-			name = "iOS-AppUITests";
+			name = TheOpenBlogUITests;
 			productName = "iOS-AppUITests";
-			productReference = 79B9AB151D22365500CDD611 /* iOS-AppUITests.xctest */;
+			productReference = 79B9AB151D22365500CDD611 /* TheOpenBlog.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					79B9AAF51D22365500CDD611 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = T74E994B87;
 					};
 					79B9AB091D22365500CDD611 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -204,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 79B9AAF11D22365500CDD611 /* Build configuration list for PBXProject "iOS-App" */;
+			buildConfigurationList = 79B9AAF11D22365500CDD611 /* Build configuration list for PBXProject "TheOpenBlog" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,9 +218,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79B9AAF51D22365500CDD611 /* iOS-App */,
-				79B9AB091D22365500CDD611 /* iOS-AppTests */,
-				79B9AB141D22365500CDD611 /* iOS-AppUITests */,
+				79B9AAF51D22365500CDD611 /* TheOpenBlog */,
+				79B9AB091D22365500CDD611 /* TheOpenBlogTests */,
+				79B9AB141D22365500CDD611 /* TheOpenBlogUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +283,12 @@
 /* Begin PBXTargetDependency section */
 		79B9AB0C1D22365500CDD611 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79B9AAF51D22365500CDD611 /* iOS-App */;
+			target = 79B9AAF51D22365500CDD611 /* TheOpenBlog */;
 			targetProxy = 79B9AB0B1D22365500CDD611 /* PBXContainerItemProxy */;
 		};
 		79B9AB171D22365500CDD611 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79B9AAF51D22365500CDD611 /* iOS-App */;
+			target = 79B9AAF51D22365500CDD611 /* TheOpenBlog */;
 			targetProxy = 79B9AB161D22365500CDD611 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,10 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iOS-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tob.iOS-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TheOpenBlog;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "iOS-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tob.iOS-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TheOpenBlog;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -426,8 +433,8 @@
 				INFOPLIST_FILE = "iOS-AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tob.iOS-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-App.app/iOS-App";
+				PRODUCT_NAME = TheOpenBlog;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheOpenBlog.app/TheOpenBlog";
 			};
 			name = Debug;
 		};
@@ -438,8 +445,8 @@
 				INFOPLIST_FILE = "iOS-AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tob.iOS-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-App.app/iOS-App";
+				PRODUCT_NAME = TheOpenBlog;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheOpenBlog.app/TheOpenBlog";
 			};
 			name = Release;
 		};
@@ -449,7 +456,7 @@
 				INFOPLIST_FILE = "iOS-AppUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tob.iOS-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TheOpenBlog;
 				TEST_TARGET_NAME = "iOS-App";
 			};
 			name = Debug;
@@ -460,7 +467,7 @@
 				INFOPLIST_FILE = "iOS-AppUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tob.iOS-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TheOpenBlog;
 				TEST_TARGET_NAME = "iOS-App";
 			};
 			name = Release;
@@ -468,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79B9AAF11D22365500CDD611 /* Build configuration list for PBXProject "iOS-App" */ = {
+		79B9AAF11D22365500CDD611 /* Build configuration list for PBXProject "TheOpenBlog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79B9AB1C1D22365600CDD611 /* Debug */,
@@ -477,29 +484,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79B9AB1E1D22365600CDD611 /* Build configuration list for PBXNativeTarget "iOS-App" */ = {
+		79B9AB1E1D22365600CDD611 /* Build configuration list for PBXNativeTarget "TheOpenBlog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79B9AB1F1D22365600CDD611 /* Debug */,
 				79B9AB201D22365600CDD611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		79B9AB211D22365600CDD611 /* Build configuration list for PBXNativeTarget "iOS-AppTests" */ = {
+		79B9AB211D22365600CDD611 /* Build configuration list for PBXNativeTarget "TheOpenBlogTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79B9AB221D22365600CDD611 /* Debug */,
 				79B9AB231D22365600CDD611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		79B9AB241D22365600CDD611 /* Build configuration list for PBXNativeTarget "iOS-AppUITests" */ = {
+		79B9AB241D22365600CDD611 /* Build configuration list for PBXNativeTarget "TheOpenBlogUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79B9AB251D22365600CDD611 /* Debug */,
 				79B9AB261D22365600CDD611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

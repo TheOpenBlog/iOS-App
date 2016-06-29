@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "79B9AAF51D22365500CDD611"
-               BuildableName = "iOS-App.app"
-               BlueprintName = "iOS-App"
-               ReferencedContainer = "container:iOS-App.xcodeproj">
+               BuildableName = "TheOpenBlog.app"
+               BlueprintName = "TheOpenBlog"
+               ReferencedContainer = "container:TheOpenBlog.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "79B9AB091D22365500CDD611"
-               BuildableName = "iOS-AppTests.xctest"
-               BlueprintName = "iOS-AppTests"
-               ReferencedContainer = "container:iOS-App.xcodeproj">
+               BuildableName = "TheOpenBlog.xctest"
+               BlueprintName = "TheOpenBlogTests"
+               ReferencedContainer = "container:TheOpenBlog.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "79B9AB141D22365500CDD611"
-               BuildableName = "iOS-AppUITests.xctest"
-               BlueprintName = "iOS-AppUITests"
-               ReferencedContainer = "container:iOS-App.xcodeproj">
+               BuildableName = "TheOpenBlog.xctest"
+               BlueprintName = "TheOpenBlogUITests"
+               ReferencedContainer = "container:TheOpenBlog.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79B9AAF51D22365500CDD611"
-            BuildableName = "iOS-App.app"
-            BlueprintName = "iOS-App"
-            ReferencedContainer = "container:iOS-App.xcodeproj">
+            BuildableName = "TheOpenBlog.app"
+            BlueprintName = "TheOpenBlog"
+            ReferencedContainer = "container:TheOpenBlog.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79B9AAF51D22365500CDD611"
-            BuildableName = "iOS-App.app"
-            BlueprintName = "iOS-App"
-            ReferencedContainer = "container:iOS-App.xcodeproj">
+            BuildableName = "TheOpenBlog.app"
+            BlueprintName = "TheOpenBlog"
+            ReferencedContainer = "container:TheOpenBlog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79B9AAF51D22365500CDD611"
-            BuildableName = "iOS-App.app"
-            BlueprintName = "iOS-App"
-            ReferencedContainer = "container:iOS-App.xcodeproj">
+            BuildableName = "TheOpenBlog.app"
+            BlueprintName = "TheOpenBlog"
+            ReferencedContainer = "container:TheOpenBlog.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
